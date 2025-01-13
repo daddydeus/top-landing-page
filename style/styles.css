@@ -98,7 +98,8 @@ img.icons {
 }
 
 #church {
-    width: 500px;
+    width: 400px;
+    max-width: 100%;
     height: auto;
-    flex: auto;
+    flex: 0 1 auto;
 }
