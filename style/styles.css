@@ -186,7 +186,7 @@ img.icons {
     height: 100%;
     flex: auto;
     gap: 5px;
-    padding: 100px 0px 100px;
+    padding: 100px 20px 100px;
     background-color: #1f2937;
 }
 
@@ -196,7 +196,7 @@ img.icons {
     color: #f9faf8;
     font-family: Roboto, serif;
     width: 800px;
-    max-width: 80%;
+    max-width: 82%;
     flex: auto;
 }
 
@@ -207,7 +207,83 @@ img.icons {
 
 .author {
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: auto;
+    padding: 100px 20px;
+}
+
+.cta-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 830px;
+    max-width: 80%;
+    gap: 40px;
+    flex: auto;
+    padding: 50px 0px;
+    background-color: #3882f6;
+    font-family: Roboto, serif;
+    border-radius: 20px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f9faf8;
+    gap: 5px;
+    padding: 0px 40px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.cta-button button {
+    padding: 10px 30px;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.cta-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-body {
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 500;
 }
